@@ -87,3 +87,118 @@ p{
     font-weight: bold;
     color: hsla(0, 0%, 0%, 0.75);
 }
+
+@media (max-width: 600px) {
+    .weatherForm{
+        margin: 15px;
+    }
+
+    .cityInput{
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 5px;
+        width: 180px;
+    }
+
+    button[type="submit"]{
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    .card{
+        padding: 25px;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    p{
+        font-size: 1.25rem;
+    }
+
+    .cityDisplay, .tempDisplay{
+        font-size: 2rem;
+    }
+
+    .humidityDisplay{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .weatherForm{
+        margin: 10px;
+    }
+
+    .cityInput{
+        padding: 5px;
+        font-size: 1rem;
+        border-radius: 5px;
+        width: 150px;
+    }
+
+    button[type="submit"]{
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+    .card{
+        padding: 15px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .cityDisplay, .tempDisplay{
+        font-size: 1.5rem;
+    }
+
+    .humidityDisplay{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .weatherForm{
+        margin: 5px;
+    }
+
+    .cityInput{
+        padding: 2.5px;
+        font-size: 1rem;
+        border-radius: 2.5px;
+        width: 150px;
+    }
+
+    button[type="submit"]{
+        padding: 2.5px 5px;
+        font-size: 1rem;
+    }
+    .card{
+        padding: 10px;
+    }
+
+    .card{
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 0.75rem;
+    }
+
+    .cityDisplay, .tempDisplay{
+        font-size: 1rem;
+    }
+
+    .humidityDisplay{
+        font-size: 0.75rem;
+    }
+}
